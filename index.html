@@ -12,7 +12,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -343,7 +343,7 @@
                             <i class='bx bx-x services__modal-close'></i>
                             <h3 class="services__modal-title">App Developer</h3>
                             <p class="services__modal-description">
-                                Service with 1 year of experience.
+                                Learning for a future to be able to develop apps.
                                 Convert an idea or project into an application that works on any smartphone.
                             </p>
 
@@ -384,12 +384,120 @@
 
         <!--=============== WORK ===============-->
         <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
 
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".web">Web</span>
+                <span class="work__item" data-filter=".app">App</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">hamburger restaurant </h3>
+                    <p>
+                        Proyect HTML5 + CSS3: Responsive Burger Front Design.
+                    </p>
+                    <a href="" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Tasks</h3>
+                    <p>
+                        Proyect HTML5 + CSS3 + JavaScript: Project where different tasks called from an Array are
+                        filtered.
+                    </p>
+                    <a href="" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Time</h3>
+                    <p>
+                        Proyecto Angular + Node.JS + MySQL: Project where an API is called that gives you the
+                        climatology that is being done at that moment in any part of the world.
+                    </p>
+                    <a href="" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Full Stack Design</h3>
+                    <p>
+                        Proyecto Angular + Node.JS + MySQL: Basado en el conocido "Comunio".
+                    </p>
+                    <span> <br> Developing</span>
+                    <a href="" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                </div>
+
+                <div class="work__card mix app">
+                    <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">APP</h3>
+                    <p></p>
+                    <span> <br> Coming soon</span>
+                    <a href="" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                </div>
+            </div>
         </section>
 
         <!--=============== TESTIMONIALS ===============-->
         <section class="testimonial section">
+            <span class="section__subtitle">My friends say</span>
+            <h2 class="section__title">Testimonial</h2>
 
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Christian Benitez</h3>
+                        <p class="testimonial__description">
+                            "Imagination and good treatment, resolute and with flexible solutions and surprising
+                            details."
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial6.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Iris Cañamares</h3>
+                        <p class="testimonial__description">
+                            "Teamwork and involvement."
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Diego Pozo Marban</h3>
+                        <p class="testimonial__description">"Very good. Functional."
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial4.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Carolina Blanco</h3>
+                        <p class="testimonial__description">"The truth is that working with him has been very simple and
+                            I have been very pleasantly surprised. I think it has been a success. I will repeat in
+                            future projects."
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Fernando Garrosa</h3>
+                        <p class="testimonial__description">
+                            "It has been a lot of fun working with David, that closeness that they have transmitted to
+                            us has been reflected in our new website."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
 
         <!--=============== CONTACT ===============-->
@@ -407,10 +515,10 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="assets/js/mixitup.min (2).js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
