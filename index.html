@@ -546,24 +546,26 @@
                 <div class="contact__content">
                     <h3 class="contact__title">Write me your project</h3>
 
-                    <form action="" class="conbtact__form">
+                    <form action="https://formsubmit.co/davidgarrosa_7@hotmail.com" method="POST" class="contact__form">
                         <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Names</label>
-                            <input type="text" placeholder="Insert your name" class="contact__form-input">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" name="name" placeholder="Insert your name" class="contact__form-input"
+                                required>
                         </div>
 
                         <div class="contact__form-div">
                             <label for="" class="contact__form-tag">Mail</label>
-                            <input type="email" placeholder="Insert your E-mail" class="contact__form-input">
+                            <input type="email" name="email" placeholder="Insert your email" class="contact__form-input"
+                                required>
                         </div>
 
-                        <div class="contact__form-div">
+                        <div class="contact__form-div contact__form-area">
                             <label for="" class="contact__form-tag">Project</label>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project"
-                                class="contact__form-input"></textarea>
+                            <textarea name="project" id="" cols="30" rows="10" placeholder="Write your project"
+                                class="contact__form-input" required></textarea>
                         </div>
 
-                        <button class="contact__button">Send Message</button>
+                        <button type="submit" class="button">Send Message</button>
                     </form>
                 </div>
 
