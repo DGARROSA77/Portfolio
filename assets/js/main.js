@@ -73,6 +73,10 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
 });
 
+//TRANSITION TESTIMONIAL
+
+
+
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
